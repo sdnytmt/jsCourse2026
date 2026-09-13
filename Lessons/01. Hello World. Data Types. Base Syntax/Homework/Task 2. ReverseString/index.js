@@ -1,7 +1,11 @@
 const reverseString = (str) => {
-    // Начало
+    let result = '';
 
-    // Конец
+    for (let i = str.length - 1; i >= 0; i -= 1) {
+        result += str[i];
+    }
+
+    return result;
 };
 
 export default reverseString;
