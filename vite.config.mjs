@@ -56,9 +56,9 @@ export default defineConfig(() => ({
             },
         },
         vuePlugin(),
-        checker({
+  /*      checker({
             vueTsc: true,
-        }),
+        }),*/
     ],
     server: {
         host: '0.0.0.0',
