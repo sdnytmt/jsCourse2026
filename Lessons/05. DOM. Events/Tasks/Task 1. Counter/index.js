@@ -12,7 +12,7 @@ const setCounter = () => {
         button.textContent = `Количество нажатий: ${count}`;
 
         if(count >= 3){
-            button.classList.add('btn-wrn');
+            button.classList.add('btn-warning');
         }
     });
 
